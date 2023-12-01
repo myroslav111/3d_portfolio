@@ -48,7 +48,7 @@ const HomeInfo = ({ currentStage }) => {
       return (
         <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
           Hi, I am <span className='font-semibold'>Myroslav</span>
-          <br />A so Web Deweloper from Ukraine.
+          <br />I am Web Deweloper from Ukraine.
         </h1>
       );
 
@@ -57,7 +57,7 @@ const HomeInfo = ({ currentStage }) => {
         <div className='info-box'>
           <p className='font-medium sm:text-center'>
             {' '}
-            Worked with many companies and picked up many skills along the way
+            Worked with many technology and picked up many skills along the way
           </p>
           <Link to='/about' className='neo-brutalism-white neo-btn'>
             Learn mor about me
@@ -71,7 +71,7 @@ const HomeInfo = ({ currentStage }) => {
         <div className='info-box'>
           <p className='font-medium sm:text-center'> Visit My Portfolio</p>
           <Link to='/projects' className='neo-brutalism-white neo-btn'>
-            Mein Work
+            Mein works
             <img src={arrow} className='w-4 h-4 object-contain' />
           </Link>
         </div>

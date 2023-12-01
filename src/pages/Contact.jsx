@@ -1,4 +1,4 @@
-import { Suspense, useRef, useState } from 'react';
+import { Suspense, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { Canvas } from '@react-three/fiber';
 import Loader from '../components/Loader';
@@ -7,11 +7,11 @@ import useAlert from '../hooks/useAlert';
 import Alert from '../components/Alert';
 
 const Contact = () => {
-  const formRef = useRef(null);
   const { alert, showAlert, hideAlert } = useAlert();
   const [form, setform] = useState({ name: '', email: '', massage: '' });
   const [isLoading, setIsLoading] = useState(false);
   const [currentAnimation, setCurrentAnimation] = useState('idle');
+  console.log(form);
   const handleChange = e => {
     setform({ ...form, [e.target.name]: e.target.value });
   };
@@ -34,7 +34,7 @@ const Contact = () => {
           to_name: 'Myroslav',
           from_email: form.email,
           to_email: 'myrkozar@gmail.com',
-          message: form.mesage
+          message: form.massage
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
@@ -68,7 +68,7 @@ const Contact = () => {
     <section className='relativ flex lg:flex-row flex-col max-container h-[100vh]'>
       {alert.show && <Alert {...alert} />}
 
-      <div className='flex-1 min-w-[50%] flex flex-col'>
+      <div>
         <h1 className='head-text'>Get in touch</h1>
         <form
           className='w-full flex flex-col gap-7 mt-14'
