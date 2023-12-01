@@ -1,4 +1,5 @@
-import { meta, shopify, starbucks, tesla } from '../assets/images';
+// import { meta, shopify, starbucks, tesla, startap } from '../assets/images';
+import { startap } from '../assets/images';
 import {
   car,
   contact,
@@ -11,7 +12,7 @@ import {
   javascript,
   linkedin,
   mongodb,
-  motion,
+  // motion,
   mui,
   nextjs,
   nodejs,
@@ -62,11 +63,11 @@ export const skills = [
     name: 'MongoDB',
     type: 'Database'
   },
-  {
-    imageUrl: motion,
-    name: 'Motion',
-    type: 'Animation'
-  },
+  // {
+  //   imageUrl: motion,
+  //   name: 'Motion',
+  //   type: 'Animation'
+  // },
   {
     imageUrl: mui,
     name: 'Material-UI',
@@ -112,49 +113,10 @@ export const skills = [
 export const experiences = [
   {
     title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
+    company_name: 'WebEvery',
+    icon: startap,
     iconBg: '#accbe1',
-    date: 'March 2020 - April 2021',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
-    ]
-  },
-  {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
-    iconBg: '#fbc3bc',
-    date: 'Jan 2021 - Feb 2022',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
-    ]
-  },
-  {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#b7e4c7',
-    date: 'Jan 2022 - Jan 2023',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
-    ]
-  },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#a2d2ff',
-    date: 'Jan 2023 - Present',
+    date: 'March 2023 - continue',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -162,6 +124,45 @@ export const experiences = [
       'Participating in code reviews and providing constructive feedback to other developers.'
     ]
   }
+  // {
+  //   title: 'React Native Developer',
+  //   company_name: 'Tesla',
+  //   icon: tesla,
+  //   iconBg: '#fbc3bc',
+  //   date: 'Jan 2021 - Feb 2022',
+  //   points: [
+  //     'Developing and maintaining web applications using React.js and other related technologies.',
+  //     'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+  //     'Implementing responsive design and ensuring cross-browser compatibility.',
+  //     'Participating in code reviews and providing constructive feedback to other developers.'
+  //   ]
+  // },
+  // {
+  //   title: 'Web Developer',
+  //   company_name: 'Shopify',
+  //   icon: shopify,
+  //   iconBg: '#b7e4c7',
+  //   date: 'Jan 2022 - Jan 2023',
+  //   points: [
+  //     'Developing and maintaining web applications using React.js and other related technologies.',
+  //     'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+  //     'Implementing responsive design and ensuring cross-browser compatibility.',
+  //     'Participating in code reviews and providing constructive feedback to other developers.'
+  //   ]
+  // },
+  // {
+  //   title: 'Full stack Developer',
+  //   company_name: 'Meta',
+  //   icon: meta,
+  //   iconBg: '#a2d2ff',
+  //   date: 'Jan 2023 - Present',
+  //   points: [
+  //     'Developing and maintaining web applications using React.js and other related technologies.',
+  //     'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+  //     'Implementing responsive design and ensuring cross-browser compatibility.',
+  //     'Participating in code reviews and providing constructive feedback to other developers.'
+  //   ]
+  // }
 ];
 
 export const socialLinks = [
@@ -186,49 +187,118 @@ export const projects = [
   {
     iconUrl: pricewise,
     theme: 'btn-back-red',
-    name: 'Amazon Price Tracker',
+    name: 'Petly',
     description:
-      'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-    link: 'https://github.com/adrianhajdin/pricewise'
+      'The application solves the problem of finding or selling animals. It is a full-stack application with a Front-End (React) and Back-End (Node.js, MongoDB). Repo: ',
+    link: 'https://pets-app-client-side-ag5ofq52b-myroslav111.vercel.app',
+    repo: 'https://github.com/myroslav111/pets-app-client-side'
   },
   {
     iconUrl: threads,
     theme: 'btn-back-green',
-    name: 'Full Stack Threads Clone',
+    name: 'Schop',
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: 'https://github.com/adrianhajdin/threads'
+      'This is an eCommerce platform currently in development, with many features already operational. It includes a mobile version and utilizes the Next.js/TypeScript stack for the front end, while the backend is powered by Node.js and MongoDB for the database. Product images are hosted on Cloudinary. The front end is deployed on Vercel, and the back end is hosted on Render. Repo: ',
+    link: 'https://shop-phi-ruddy.vercel.app/',
+    repo: 'https://github.com/myroslav111/shop'
   },
   {
     iconUrl: car,
     theme: 'btn-back-blue',
-    name: 'Car Finding App',
+    name: 'Language cards',
     description:
-      'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-    link: 'https://github.com/adrianhajdin/project_next13_car_showcase'
+      'Add words for learning (you can use two languages for learning here). When you finish, delete them. The app features Google authorization and includes a translator. The app is still in progress (to get more functionality you need to register). Adapted for mobile devices. Repo: ',
+    link: 'https://myroslav111.github.io/Language_cards/',
+    repo: 'https://github.com/myroslav111/Language_cards'
   },
   {
     iconUrl: snapgram,
     theme: 'btn-back-pink',
-    name: 'Full Stack Instagram Clone',
+    name: 'Kinogo',
     description:
-      'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-    link: 'https://github.com/adrianhajdin/social_media_app'
+      'The project focuses on searching for movies and adding favorite movies to a client"s library. It is built using pure JS, npm packages, and The Movie Database (themoviedb) API. The stack includes HTML, SCSS for styling, Handlebars templates, YouTube iframe integration, MockAPI as the back-end, CSS animations, and infinity scroll for mobile. Repo: ',
+    link: 'https://myroslav111.github.io/kino-go/',
+    repo: 'https://github.com/myroslav111/kino-go'
   },
   {
     iconUrl: estate,
     theme: 'btn-back-black',
-    name: 'Real-Estate Application',
+    name: 'Phone Book',
     description:
-      'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-    link: 'https://github.com/adrianhajdin/projects_realestate'
+      'The app is a Phone Book with authorization, built using the React stack. It includes React, react-router-dom for routing, react-redux toolkit for state management, TypeScript (ts), Axios for HTTP requests, react-transition for transitions, and i18next for internationalization. Repo: ',
+    link: 'https://myroslav111.github.io/goit-react-hw-08-phonebook/',
+    repo: 'https://github.com/myroslav111/goit-react-hw-08-phonebook'
   },
   {
     iconUrl: summiz,
     theme: 'btn-back-yellow',
-    name: 'AI Summarizer Application',
+    name: 'Gallery by React',
     description:
-      'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-    link: 'https://github.com/adrianhajdin/project_ai_summarizer'
+      'A simple gallery project that allows searching by name using the Pixabay API. The stack includes React, Axios for API requests, react-transition-group for transitions, and CSS animations. Repo: ',
+    link: 'https://myroslav111.github.io/goit-react-hw-04-images/',
+    repo: ' https://github.com/myroslav111/goit-react-hw-04-images'
+  }
+];
+
+export const projectsWithoutStyle = [
+  {
+    iconUrl: summiz,
+    theme: 'btn-back-yellow',
+    name: 'Converter currency',
+    description:
+      'A currency converter project that utilizes (navigator.geolocation). Repo: ',
+    link: 'https://myroslav111.github.io/converter_currency/',
+    repo: ' https://github.com/myroslav111/converter_currency'
+  },
+  {
+    iconUrl: summiz,
+    theme: 'btn-back-yellow',
+    name: 'Hronometr',
+    description:
+      'An app designed to count how much time it takes to read a given text. Repo: ',
+    link: 'https://myroslav111.github.io/hronomer_to_misha/',
+    repo: 'https://github.com/myroslav111/hronomer_to_misha'
+  }
+];
+
+export const projectOnlyDesign = [
+  {
+    iconUrl: snapgram,
+    theme: 'btn-back-yellow',
+    name: 'WebStudio',
+    description:
+      'Basic visitor website showcasing a layout example for a service advertising page. The stack includes HTML, SCSS for styling, and JavaScript. Repo: ',
+    link: 'https://myroslav111.github.io/project-web-html-scss/',
+    repo: 'https://github.com/myroslav111/project-web-html-scss'
+  },
+  {
+    iconUrl: snapgram,
+    theme: 'btn-back-yellow',
+    name: 'BarberShop',
+    description:
+      'BarberShop - A basic visitor website featuring a layout example for a service advertising page. The stack includes HTML, SCSS for styling, and JavaScript. Repo: ',
+    link: 'https://myroslav111.github.io/barbershop-html-scss/',
+    repo: 'https://github.com/myroslav111/barbershop-html-scss'
+  },
+  {
+    iconUrl: snapgram,
+    theme: 'btn-back-yellow',
+    name: '100% natural',
+    description:
+      'Landing page for an ice cream company, designed to be responsive. The stack includes HTML, SCSS for styling, pure JavaScript, and Parcel for bundling. The page features a slider and animations. Repo: ',
+    link: 'https://myroslav111.github.io/100-natural/',
+    repo: 'https://github.com/myroslav111/100-natural'
+  }
+];
+
+export const projectsOther = [
+  {
+    iconUrl: summiz,
+    theme: 'btn-back-yellow',
+    name: 'Rick and Morty',
+    description:
+      'Pet project using multifunction relative to sort written on MUI. Repo: ',
+    link: 'https://myroslav111.github.io/rick_and_morty/',
+    repo: 'https://github.com/myroslav111/rick_and_morty'
   }
 ];

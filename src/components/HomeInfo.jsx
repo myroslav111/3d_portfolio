@@ -70,7 +70,7 @@ const HomeInfo = ({ currentStage }) => {
       return (
         <div className='info-box'>
           <p className='font-medium sm:text-center'> Visit My Portfolio</p>
-          <Link to='/about' className='neo-brutalism-white neo-btn'>
+          <Link to='/projects' className='neo-brutalism-white neo-btn'>
             Mein Work
             <img src={arrow} className='w-4 h-4 object-contain' />
           </Link>

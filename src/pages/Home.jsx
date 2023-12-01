@@ -7,11 +7,28 @@ import { Plane } from '../models/Plane';
 import { Bird } from '../models/Bird';
 import { Suspense, useEffect, useRef, useState } from 'react';
 import HomeInfo from '../components/HomeInfo';
+import { soundoff, soundon } from '../assets/icons';
+import sakura from '../assets/sakura.mp3';
 
 const Home = () => {
+  const audioRef = useRef(new Audio(sakura));
+  audioRef.current.volume = 0.4;
+  audioRef.current.loop = true;
+
   const [isRotating, setIsRotating] = useState(false);
   const [currentStage, setCurrentStage] = useState(1);
-  // console.log(currentStage);
+  const [isPlayingMusic, setIsPlayingMusic] = useState(false);
+
+  useEffect(() => {
+    if (isPlayingMusic) {
+      audioRef.current.play();
+    }
+
+    return () => {
+      audioRef.current.pause();
+    };
+  }, [isPlayingMusic]);
+
   const adjustBiplaneForScreenSize = () => {
     let screenScale, screenPosition;
 
@@ -62,14 +79,12 @@ const Home = () => {
         <Suspense fallback={<Loader />}>
           <directionalLight position={[1, 1, 1]} intensity={2} />
           <ambientLight intensity={0.5} />
-          <pointLight
-          //  position={[10, 5, 10]} intensity={2}
-          />
+          <pointLight position={[10, 5, 10]} intensity={2} />
           <spotLight
-          // position={[0, 50, 10]}
-          // angle={0.15}
-          // penumbra={1}
-          // intensity={2}
+            position={[0, 50, 10]}
+            angle={0.15}
+            penumbra={1}
+            intensity={2}
           />
           <hemisphereLight
             skyColor='#b1e1ff'
@@ -88,12 +103,21 @@ const Home = () => {
           />
           <Plane
             isRotating={isRotating}
-            biplaneScale={biplaneScale}
-            biplanePosition={biplanePosition}
+            scale={biplaneScale}
+            position={biplanePosition}
             rotation={[0, 20, 0]}
           />
         </Suspense>
       </Canvas>
+
+      <div className='absolute bottom-2 left-2'>
+        <img
+          src={!isPlayingMusic ? soundoff : soundon}
+          alt='jukebox'
+          onClick={() => setIsPlayingMusic(!isPlayingMusic)}
+          className='w-10 h-10 cursor-pointer object-contain'
+        />
+      </div>
     </section>
   );
 };
