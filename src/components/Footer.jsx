@@ -8,12 +8,12 @@ const Footer = () => {
         <div className='footer-container'>
           <ul className='md:flex md:justify-center md:items-center md:flex-col md:gap-5 hidden'>
             {socialLinks.map(item => (
-              <li key={item.name}>
+              <li key={item.name} className='group hover:animate-spin'>
                 <Link
                   to={item.link}
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='font-semibold text-blue-600'
+                  className='font-semibold text-blue-600 text-2xl group-hover:animate-pulse'
                 >
                   {' '}
                   <img
