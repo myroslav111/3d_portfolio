@@ -300,32 +300,13 @@ export const projectsOther = [
       'Pet project using multifunction relative to sort written on MUI. Repo: ',
     link: 'https://myroslav111.github.io/rick_and_morty/',
     repo: 'https://github.com/myroslav111/rick_and_morty'
-  }
-];
-
-export const socialData = [
-  {
-    id: 1,
-    name: 'instagram',
-    path: 'https://www.instagram.com/web.every/',
-    arialabel: 'instagram'
   },
   {
-    id: 2,
-    name: 'facebook',
-    path: 'https://www.facebook.com/profile.php?id=100092267193984',
-    arialabel: 'facebook'
-  },
-  {
-    id: 3,
-    name: 'telegram',
-    path: 'https://t.me/Webevery',
-    arialabel: 'telegram'
-  },
-  {
-    id: 4,
-    name: 'linkedin',
-    path: 'https://www.linkedin.com/company/webevery',
-    arialabel: 'linkedin'
+    iconUrl: summiz,
+    theme: 'btn-back-yellow',
+    name: 'Old portfolio',
+    description: 'My first Portfolio. Repo: ',
+    link: 'https://myroslav111.github.io/Portfolio/#/',
+    repo: 'https://github.com/myroslav111/Portfolio'
   }
 ];
