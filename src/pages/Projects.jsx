@@ -109,7 +109,7 @@ const Projects = () => {
         {' '}
         <Element name='section_other' className='element'>
           <p id='section_other' className='text-slate-500 mt-2 leading-relaxed'>
-            Projects with a focus on layout design only. &#128071;
+            Others. &#128071;
           </p>
         </Element>
       </div>

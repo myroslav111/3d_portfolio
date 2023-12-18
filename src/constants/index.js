@@ -228,15 +228,6 @@ export const projects = [
       'The app is a Phone Book with authorization, built using the React stack. It includes React, react-router-dom for routing, react-redux toolkit for state management, TypeScript (ts), Axios for HTTP requests, react-transition for transitions, and i18next for internationalization. Repo: ',
     link: 'https://myroslav111.github.io/goit-react-hw-08-phonebook/',
     repo: 'https://github.com/myroslav111/goit-react-hw-08-phonebook'
-  },
-  {
-    iconUrl: summiz,
-    theme: 'btn-back-yellow',
-    name: 'Gallery by React',
-    description:
-      'A simple gallery project that allows searching by name using the Pixabay API. The stack includes React, Axios for API requests, react-transition-group for transitions, and CSS animations. Repo: ',
-    link: 'https://myroslav111.github.io/goit-react-hw-04-images/',
-    repo: ' https://github.com/myroslav111/goit-react-hw-04-images'
   }
 ];
 
@@ -300,6 +291,15 @@ export const projectsOther = [
       'Pet project using multifunction relative to sort written on MUI. Repo: ',
     link: 'https://myroslav111.github.io/rick_and_morty/',
     repo: 'https://github.com/myroslav111/rick_and_morty'
+  },
+  {
+    iconUrl: summiz,
+    theme: 'btn-back-yellow',
+    name: 'Gallery by React',
+    description:
+      'A simple gallery project that allows searching by name using the Pixabay API. The stack includes React, Axios for API requests, react-transition-group for transitions, and CSS animations. Repo: ',
+    link: 'https://myroslav111.github.io/goit-react-hw-04-images/',
+    repo: ' https://github.com/myroslav111/goit-react-hw-04-images'
   },
   {
     iconUrl: summiz,
