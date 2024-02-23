@@ -6,6 +6,8 @@ import {
 import { CTA } from '../components';
 import { skills, experiences } from '../constants';
 
+import { Link } from 'react-router-dom';
+
 import 'react-vertical-timeline-component/style.min.css';
 
 const About = () => {
@@ -71,12 +73,20 @@ const About = () => {
                 date={experience.date}
                 iconStyle={{ background: experience.iconBg }}
                 icon={
-                  <div className='flex justify-center items-center w-full h-full'>
-                    <img
-                      src={experience.icon}
-                      alt={experience.company_name}
-                      className='w-[60%] h-[60%] object-contain'
-                    />
+                  <div className='flex justify-center items-center w-full h-full hover:scale-125 md:transform-none'>
+                    <Link
+                      className='flex justify-center items-center'
+                      to={experience.link}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      // className='font-semibold text-blue-600'
+                    >
+                      <img
+                        src={experience.icon}
+                        alt={experience.company_name}
+                        className='w-[60%] h-[60%] object-contain'
+                      />
+                    </Link>
                   </div>
                 }
                 contentStyle={{

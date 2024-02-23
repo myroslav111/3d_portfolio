@@ -122,7 +122,8 @@ export const experiences = [
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
       'Participating in code reviews and providing constructive feedback to other developers.'
-    ]
+    ],
+    link: 'https://webevery.dev/'
   }
   // {
   //   title: 'React Native Developer',
