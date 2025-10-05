@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    // h-[100vh]
     <main className='bg-slate-300/20 '>
       <Router>
         <Navbar />
