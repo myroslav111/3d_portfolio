@@ -11,8 +11,6 @@ const Contact = () => {
   const [form, setform] = useState({ name: '', email: '', massage: '' });
   const [isLoading, setIsLoading] = useState(false);
   const [currentAnimation, setCurrentAnimation] = useState('idle');
-  console.log(form);
-  console.log(import.meta.env.VITE_APP_EMAILJS_SERVICE_ID);
 
   const handleChange = e => {
     setform({ ...form, [e.target.name]: e.target.value });
