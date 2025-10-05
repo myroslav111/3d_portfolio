@@ -22,17 +22,16 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          I am eager to secure a position as a Junior Front-end developer, where
-          I can tackle complex and interesting tasks. My goal is to demonstrate
-          my programming skills in practical applications, contributing to the
-          companyI&apos;s ongoing development. Additionally, I aim to acquire
-          new skills, gain valuable work experience, and achieve success in my
-          web developer career.
+          I am currently completing my apprenticeship as an Application
+          Developer (Java, Backend) at InfoKom in Karlsruhe and attending
+          Heinrich-Hertz-Schule. I am passionate about building practical
+          applications, improving my backend and full-stack skills, and
+          continuously growing as a developer.
         </p>
       </div>
 
       <div className='py-10 flex flex-col'>
-        <h3 className='subhead-text'>My Skills</h3>
+        <h3 className='subhead-text'>Tools & Technologies I’ve Worked With</h3>
         <div className='mt-16 flex flex-wrap gap-12'>
           {skills.map(skill => (
             <div className='block-container w-20 h-20' key={skill.name}>
@@ -53,15 +52,15 @@ const About = () => {
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I may not have commercial experience in development, but I have
-            actively participated in a small startup after my education.
-            II&apos;ve had the opportunity to take on the role of a team lead
-            twice, showcasing my leadership skills. My involvement in the
-            startup has provided me with valuable experience in working
-            collaboratively within a team environment. Despite the absence of
-            commercial exposure, my role as a team lead and my contribution to
-            the startup have equipped me with practical skills and a strong
-            foundation for collaborative work in a professional setting.
+            Although I do not yet have extensive commercial experience, I gained
+            valuable hands-on knowledge by participating in a small startup
+            after completing a JavaScript training course. During this time, I
+            had the opportunity to take on a team lead role twice, which
+            strengthened my leadership and communication skills. This
+            experience, along with my current apprenticeship as a Java backend
+            developer at InfoKom and studies at Heinrich-Hertz-Schule in
+            Karlsruhe, has helped me develop a solid foundation in teamwork,
+            problem-solving, and software development in real projects.
           </p>
         </div>
 
