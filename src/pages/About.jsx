@@ -11,13 +11,12 @@ import { Link } from 'react-router-dom';
 import 'react-vertical-timeline-component/style.min.css';
 
 const About = () => {
-  
   return (
     <section className='max-container'>
       <h1 className='head-text'>
         Hello, I&apos;m{' '}
         <span className='blue-gradient_text font-semibold drop-shadow'>
-          Miro
+          Myroslav
         </span>
       </h1>
 
@@ -72,6 +71,12 @@ const About = () => {
               applications, database integrations, mappings, APIs, and internal systems
               where Java and Spring are part of my daily life.
             </p>
+            <p>
+              Before that, I was also involved in a small startup after my education, where
+              I had the opportunity to take on a team lead role twice. That experience helped
+              me strengthen my collaboration and communication skills in a fast-moving team
+              environment and gave me early responsibility in real-world development work.
+          </p>
         </div>
 
         <div className='mt-12 flex'>
