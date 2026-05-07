@@ -16,18 +16,32 @@ const About = () => {
       <h1 className='head-text'>
         Hello, I&apos;m{' '}
         <span className='blue-gradient_text font-semibold drop-shadow'>
-          Miro
+          Myroslav
         </span>
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p>
-          I am currently completing my apprenticeship as an Application
-          Developer (Java, Backend) at InfoKom in Karlsruhe and attending
-          Heinrich-Hertz-Schule. I am passionate about building practical
-          applications, improving my backend and full-stack skills, and
-          continuously growing as a developer.
-        </p>
+
+            <p>
+              Currently doing my Ausbildung as an Application Developer at Infokom GmbH,
+              where I mostly work on backend stuff — building APIs, working with databases,
+              and occasionally trying to convince Spring Boot to cooperate with me ☕.
+            </p>
+
+            <p>
+              My current tech stack includes Java, Spring Boot, Vaadin, PostgreSQL,
+              CockroachDB, GitLab CI/CD, and tools like Jira & Confluence. I also get
+              in touch with DevOps topics from time to time, so yes… sometimes I write
+              code, sometimes I fight pipelines.
+            </p>
+
+            <p>
+              Even though my focus shifted more towards backend development, I still enjoy
+              frontend work and creating clean, interactive user experiences. I like
+              understanding how things work under the hood and continuously improving my
+              skills while building real-world applications.
+            </p>
+
       </div>
 
       <div className='py-10 flex flex-col'>
@@ -51,16 +65,17 @@ const About = () => {
       <div className='py-16'>
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-          <p>
-            Although I do not yet have extensive commercial experience, I gained
-            valuable hands-on knowledge by participating in a small startup
-            after completing a JavaScript training course. During this time, I
-            had the opportunity to take on a team lead role twice, which
-            strengthened my leadership and communication skills. This
-            experience, along with my current apprenticeship as a Java backend
-            developer at InfoKom and studies at Heinrich-Hertz-Schule in
-            Karlsruhe, has helped me develop a solid foundation in teamwork,
-            problem-solving, and software development in real projects.
+            <p>
+              Right now I’m gaining hands-on experience during my Ausbildung at
+              Infokom GmbH, mainly in backend-oriented projects. I work with enterprise
+              applications, database integrations, mappings, APIs, and internal systems
+              where Java and Spring are part of my daily life.
+            </p>
+            <p>
+              Before that, I was also involved in a small startup after my education, where
+              I had the opportunity to take on a team lead role twice. That experience helped
+              me strengthen my collaboration and communication skills in a fast-moving team
+              environment and gave me early responsibility in real-world development work.
           </p>
         </div>
 
