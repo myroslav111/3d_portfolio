@@ -22,6 +22,7 @@ const About = () => {
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
+
             <p>
               Currently doing my Ausbildung as an Application Developer at Infokom GmbH,
               where I mostly work on backend stuff — building APIs, working with databases,
@@ -45,7 +46,7 @@ const About = () => {
       </div>
 
       <div className='py-10 flex flex-col'>
-        <h3 className='subhead-text'>My Skills</h3>
+        <h3 className='subhead-text'>Tools & Technologies I’ve Worked With</h3>
         <div className='mt-16 flex flex-wrap gap-12'>
           {skills.map(skill => (
             <div className='block-container w-20 h-20' key={skill.name}>
@@ -65,7 +66,6 @@ const About = () => {
       <div className='py-16'>
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-
             <p>
               Right now I’m gaining hands-on experience during my Ausbildung at
               Infokom GmbH, mainly in backend-oriented projects. I work with enterprise

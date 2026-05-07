@@ -2,7 +2,7 @@
 import { startap } from '../assets/images';
 import {
   car,
-  contact,
+  //contact,
   css,
   estate,
   express,
@@ -12,7 +12,6 @@ import {
   javascript,
   linkedin,
   mongodb,
-  // motion,
   mui,
   nextjs,
   nodejs,
@@ -24,7 +23,9 @@ import {
   summiz,
   tailwindcss,
   threads,
-  typescript
+  typescript,
+  java,
+  docker
 } from '../assets/icons';
 
 export const skills = [
@@ -107,6 +108,16 @@ export const skills = [
     imageUrl: typescript,
     name: 'TypeScript',
     type: 'Frontend'
+  },
+  {
+    imageUrl: java,
+    name: 'java',
+    type: 'Backend'
+  },
+  {
+    imageUrl: docker,
+    name: 'docker',
+    type: 'Frontend'
   }
 ];
 
@@ -167,11 +178,11 @@ export const experiences = [
 ];
 
 export const socialLinks = [
-  {
-    name: 'Contact',
-    iconUrl: contact,
-    link: '/contact'
-  },
+  //{
+  //name: 'Contact',
+  //iconUrl: contact,
+  //link: '/contact'
+  //},
   {
     name: 'LinkedIn',
     iconUrl: linkedin,
