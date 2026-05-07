@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom';
 import 'react-vertical-timeline-component/style.min.css';
 
 const About = () => {
+  
   return (
     <section className='max-container'>
       <h1 className='head-text'>
@@ -21,14 +22,26 @@ const About = () => {
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p>
-          I am eager to secure a position as a Junior Front-end developer, where
-          I can tackle complex and interesting tasks. My goal is to demonstrate
-          my programming skills in practical applications, contributing to the
-          companyI&apos;s ongoing development. Additionally, I aim to acquire
-          new skills, gain valuable work experience, and achieve success in my
-          web developer career.
-        </p>
+            <p>
+              Currently doing my Ausbildung as an Application Developer at Infokom GmbH,
+              where I mostly work on backend stuff — building APIs, working with databases,
+              and occasionally trying to convince Spring Boot to cooperate with me ☕.
+            </p>
+
+            <p>
+              My current tech stack includes Java, Spring Boot, Vaadin, PostgreSQL,
+              CockroachDB, GitLab CI/CD, and tools like Jira & Confluence. I also get
+              in touch with DevOps topics from time to time, so yes… sometimes I write
+              code, sometimes I fight pipelines.
+            </p>
+
+            <p>
+              Even though my focus shifted more towards backend development, I still enjoy
+              frontend work and creating clean, interactive user experiences. I like
+              understanding how things work under the hood and continuously improving my
+              skills while building real-world applications.
+            </p>
+
       </div>
 
       <div className='py-10 flex flex-col'>
@@ -52,17 +65,13 @@ const About = () => {
       <div className='py-16'>
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-          <p>
-            I may not have commercial experience in development, but I have
-            actively participated in a small startup after my education.
-            II&apos;ve had the opportunity to take on the role of a team lead
-            twice, showcasing my leadership skills. My involvement in the
-            startup has provided me with valuable experience in working
-            collaboratively within a team environment. Despite the absence of
-            commercial exposure, my role as a team lead and my contribution to
-            the startup have equipped me with practical skills and a strong
-            foundation for collaborative work in a professional setting.
-          </p>
+
+            <p>
+              Right now I’m gaining hands-on experience during my Ausbildung at
+              Infokom GmbH, mainly in backend-oriented projects. I work with enterprise
+              applications, database integrations, mappings, APIs, and internal systems
+              where Java and Spring are part of my daily life.
+            </p>
         </div>
 
         <div className='mt-12 flex'>
