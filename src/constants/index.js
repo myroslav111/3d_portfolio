@@ -116,7 +116,7 @@ export const experiences = [
     company_name: 'WebEvery',
     icon: startap,
     iconBg: '#accbe1',
-    date: 'March 2023 - continue',
+    date: 'March 2023 - Jan 2024',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
